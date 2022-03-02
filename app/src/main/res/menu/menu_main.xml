@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="riper.housebuilder.MainActivity">
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="101"
+        android:title="@string/add_new_project" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="102"
+        android:title="@string/about_app" />
+    <item
+        android:id="@+id/action_add_expense"
+        android:orderInCategory="103"
+        android:title="@string/list_global_spending" />
+</menu>
